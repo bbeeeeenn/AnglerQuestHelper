@@ -1,6 +1,6 @@
 using System;
 
-namespace TShockPlugin.Models;
+namespace AQuestHelper.Models;
 
 public struct ResponseMessage
 {

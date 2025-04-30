@@ -1,8 +1,8 @@
+using AQuestHelper.Events;
+using AQuestHelper.Models;
 using TerrariaApi.Server;
-using TShockPlugin.Events;
-using TShockPlugin.Models;
 
-namespace TShockPlugin;
+namespace AQuestHelper;
 
 public class EventManager
 {

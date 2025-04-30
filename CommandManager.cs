@@ -1,14 +1,14 @@
-using TShockPlugin.Commands;
-using TShockPlugin.Models;
+using AQuestHelper.Commands;
+using AQuestHelper.Models;
 
-namespace TShockPlugin;
+namespace AQuestHelper;
 
 public class CommandManager
 {
     public static readonly List<Command> Commands = new()
     {
         // Commands
-        new DummyCommand(),
+        new ShowQuest(),
     };
 
     public static void RegisterAll()

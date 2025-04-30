@@ -1,9 +1,9 @@
+using AQuestHelper.Models;
 using Microsoft.Xna.Framework;
 using Newtonsoft.Json;
 using TShockAPI;
-using TShockPlugin.Models;
 
-namespace TShockPlugin;
+namespace AQuestHelper;
 
 public class PluginSettings
 {
@@ -15,7 +15,7 @@ public class PluginSettings
 
     public static PluginSettings Config { get; set; } = new();
     #region Configs
-
+    public string[] CommandAliases = { "aquest", "anglerquest" };
     #endregion
     public static void Save()
     {

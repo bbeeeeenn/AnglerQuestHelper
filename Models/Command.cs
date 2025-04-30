@@ -1,6 +1,6 @@
 using TShockAPI;
 
-namespace TShockPlugin.Models;
+namespace AQuestHelper.Models;
 
 public abstract class Command
 {

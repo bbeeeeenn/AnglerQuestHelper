@@ -1,9 +1,9 @@
+using AQuestHelper.Models;
 using TerrariaApi.Server;
 using TShockAPI;
 using TShockAPI.Hooks;
-using TShockPlugin.Models;
 
-namespace TShockPlugin.Events;
+namespace AQuestHelper.Events;
 
 public class OnReload : Event
 {
