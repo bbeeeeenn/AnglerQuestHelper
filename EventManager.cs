@@ -10,6 +10,7 @@ public class EventManager
     {
         // Events
         new OnReload(),
+        new OnGameUpdate(),
     };
 
     public static void RegisterAll(TerrariaPlugin plugin)

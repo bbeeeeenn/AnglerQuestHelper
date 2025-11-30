@@ -15,7 +15,8 @@ public class PluginSettings
 
     public static PluginSettings Config { get; set; } = new();
     #region Configs
-    public string[] CommandAliases = { "aquest", "anglerquest" };
+    public string[] CommandAliases = { "aq", "aquest", "anglerquest" };
+    public string NewQuestNotificationFormat = "[Angler Quest] {0} {1} - Caught in {2}.";
     #endregion
     public static void Save()
     {
