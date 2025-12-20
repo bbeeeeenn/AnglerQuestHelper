@@ -40,6 +40,16 @@ public class OnGameUpdate : Event
                 currentFishLocation
             );
             TShock.Utils.Broadcast(notificationString, Color.AliceBlue);
+            foreach (TSPlayer player in TShock.Players)
+            {
+                if (player != null && player.Active)
+                {
+                    player.SendMessage(
+                        $"Completed Quests - [c/32FF82:{player.TPlayer.anglerQuestsFinished}]",
+                        Color.AliceBlue
+                    );
+                }
+            }
         }
 
         lastDayTime = Main.dayTime;
